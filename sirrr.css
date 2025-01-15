@@ -1,0 +1,97 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #ffffff;
+        }
+        header {
+            background-color: #002855;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #002855;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+                 max-width: 1200px;
+                margin: 27px auto;
+                padding: 55px;
+                background: #0a0e27;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                flex-wrap: wrap;
+                font-size: 20px;
+        }
+        section img {
+            
+            border-radius: 8px;
+            height: 200px;
+            width: 300px;
+        }
+        section div {
+            flex: 1;
+        }
+        section h2 {
+            color: #002855;
+            margin-top: 0;
+        }
+        .contact-form label {
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #002855;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #004080;
+        }
+        footer {
+            background-color: #002855;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            section {
+                flex-direction: column;
+            }
+            section img {
+                width: 100%;
+            }
+        }
+    </style>
